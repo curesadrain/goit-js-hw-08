@@ -74,7 +74,7 @@ gallery.innerHTML = images
         <img class="gallery-image"
         src="${image.preview}"
         data-source="${image.original}"
-        alt="image.description"
+        alt="${image.description}"
         />
         </a>
         </li>`
